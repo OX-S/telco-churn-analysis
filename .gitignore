@@ -1,1 +1,4 @@
 .idea
+/tabpy_log.log
+/TelcoChurnAnalysis.twb
+/local_churn.db
