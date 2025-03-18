@@ -1,7 +1,7 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-df = pd.read_csv('WA_Fn-UseC_-Telco-Customer-Churn.csv')
+df = pd.read_csv('../data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv')
 
 print(df.head())
 
