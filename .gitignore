@@ -2,3 +2,7 @@
 /tabpy_log.log
 /TelcoChurnAnalysis.twb
 /local_churn.db
+/data/db/local_churn.db
+/scripts/stacking_classifier.joblib
+/TelcoChurnAnalysis.twbx
+/data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv
