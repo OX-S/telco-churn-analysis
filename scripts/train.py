@@ -1,5 +1,4 @@
 import sqlite3
-
 import joblib
 import numpy as np
 import pandas as pd
@@ -7,12 +6,9 @@ from sklearn.ensemble import StackingClassifier, RandomForestClassifier
 from sklearn.feature_selection import SelectKBest, f_classif
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler, StandardScaler
-from sklearn.feature_selection import chi2,mutual_info_classif
-import imblearn
+from sklearn.feature_selection import chi2
 from collections import Counter
 from imblearn.over_sampling import SMOTE
-from imblearn.under_sampling import RandomUnderSampler
-from imblearn.pipeline import Pipeline
 from sklearn.tree import DecisionTreeClassifier
 from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier
